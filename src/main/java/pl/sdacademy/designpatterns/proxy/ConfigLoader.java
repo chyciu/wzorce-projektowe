@@ -1,4 +1,7 @@
-package pl.sdacademy.designpatterns.Proxy;
+package pl.sdacademy.designpatterns.proxy;
 
 public interface ConfigLoader {
+
+    public String load ();
+
 }

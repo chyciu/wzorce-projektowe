@@ -24,6 +24,7 @@ public class SedanCarFactory implements AbstractFactory<Car> {
     }
 
     private Car createA4Sedan () {
+
         return new Audi("A4", EngineType.DIESEL, 2.00, 4, BodyType.SEDAN);
     }
 
